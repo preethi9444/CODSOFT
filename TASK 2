@@ -1,0 +1,10 @@
+#Creating a simple password generator
+import random
+up="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+low=up.lower()
+num="0123456789"
+special="!@#$%&^*_"
+str1=up+low+num+special
+length=int(input("Enter required length: "))
+password="".join(random.sample(str1,length))
+print("Generated password is",password)
