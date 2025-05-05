@@ -1,2 +1,2 @@
-# CODSOFT
+# PROJECTS
 Python programming
